@@ -61,8 +61,8 @@ p {
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    
-    
+
+
 }
 .name-text {
     margin-left: 80px;
@@ -105,7 +105,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-    
+
     /* margin-left: 0; */
 }
 
@@ -123,6 +123,8 @@ p {
 .photo {
     width: 300px;
     border-radius: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 .project-card {
@@ -141,6 +143,8 @@ p {
     margin-top: 25px;
     width: 210px;
     border-radius: 125px;
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
